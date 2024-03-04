@@ -1,0 +1,309 @@
+/* Big screen :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .SENSES__content br {
+        display: none;
+    }
+    
+    .SENSES__left i video {
+        width: 48%;
+    }
+
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    h1{
+    font-size: 60px;
+}
+    .SENSES__content br {
+        display: none;
+    }
+
+.SENSES__content h1 {
+    font-size: 60px;
+}
+
+.SENSES__content ul li h4 {
+    font-size: 22px;
+}
+    
+    .SENSES__left i video {
+        width: 50%;
+    }
+
+}
+
+
+/* Normal screen :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .world__img i {
+        max-width: 580px;
+        height: 340px;
+    }
+    
+    .world__content h1 {
+        font-size: 60px;
+    }
+    
+    h1 {
+        font-size: 60px;
+    }
+    .SENSES__left i video {
+        position: unset;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .SENSES__left i {
+        width: max-content;
+        margin: auto;
+    }
+    
+    .SENSES__content {
+        padding: 50px;
+    }
+    
+    .SENSES__content h1 {
+        text-align: center;
+    }
+
+}
+
+ 
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .world__img i {
+        max-width: 580px;
+        height: 340px;
+    }
+    
+
+    h1 {
+        font-size: 50px;
+    }
+    .SENSES__left i video {
+        position: unset;
+        width: 100%;
+        max-width: 500px;
+        margin: auto;
+    }
+    
+    .SENSES__left i {
+        width: max-content;
+        margin: auto;
+    }
+    
+    .SENSES__content {
+        padding: 50px;
+    }
+    
+    .SENSES__content h1 {
+        text-align: center;
+    }
+    .hero__img {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    
+    .hero__text {
+        text-align: center;
+        padding: 0;
+    }
+    
+    .hero__text h1 {
+        font-size: 58px;
+    }
+    
+    .Experience__content ul {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .Experience__img i {
+        display: none;
+    }
+    
+    
+    .world-area {
+        text-align: center;
+    }
+    
+    .world__img {
+        margin: auto;
+        margin-top: 40px;
+    }
+}
+
+ 
+/* small screen :320px. */
+@media (max-width: 767px) {
+    .world__img i {
+        max-width: 300px;
+        height: 176px;
+    }
+
+.world__img span {
+    max-width: 300px;
+    font-size: 14px;
+    margin-top: 36px;
+}
+    
+    .world__content h1 {
+    font-size: 30px;
+    }
+    
+    h1 {
+        font-size: 36px;
+        letter-spacing: -1px;
+    }
+    .SENSES__left i video {
+        position: unset;
+        width: 100%;
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    .SENSES__left i {
+        width: max-content;
+        margin: auto;
+    }
+    
+    .SENSES__content {
+        padding: 40px 20px;
+    }
+    
+    .SENSES__content h1 {
+        text-align: center;
+    }
+    .hero__img {
+        max-width: 200px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+.form__content {
+    border-radius: 40px;
+}
+    
+    .hero__text {
+        text-align: center;
+        padding: 0;
+    }
+
+.hero__text h5 {
+    font-size: 16px;
+}
+    
+    .hero__text h1 {
+    font-size: 40px;
+    }
+    
+    .Experience__content ul {
+        justify-content: space-between;
+    }
+    
+    .Experience__img i {
+        display: none;
+    }
+    
+    
+    .world-area {
+        text-align: center;
+    }
+    
+    .world__img {
+        margin: auto;
+        margin-top: 40px;
+    }
+    .form__content a.thm_btn {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .Experience__content h1 {
+        font-size: 30px;
+    }
+    
+    .SENSES__content ul li {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    .SENSES__content ul li h4 {
+        font-size: 20px;
+    }
+    
+    .SENSES__content ul li p {
+        font-size: 15px;
+    }
+    
+    .powerplay__content h2 {
+        font-size: 30px;
+    }
+    
+    .sec__padding {
+        padding: 60px 0;
+    }
+    
+    .world__content span {
+        font-size: 16px;
+    }
+    
+    .world__img .world__video:before {
+        right: -10px;
+        top: 10px;
+    }
+    
+    .orders__blk h4 {
+        font-size: 20px;
+    }
+    
+    .orders__blk p {
+        font-size: 15px;
+    }
+    
+    .orders-area {
+        margin-top: 60px;
+    }
+    
+    .card__link ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0 30px;
+    }
+    
+    .mcard {
+        max-width: 174px;
+    }
+    
+    .mCode {
+        max-width: 125px;
+    }
+    
+    .vVisa {
+        max-width: 96px;
+    }
+    
+    .visa {
+        max-width: 100px;
+    }
+    
+    .product-area {
+        margin-bottom: 70px;
+    }
+    
+    .Experience-area {
+        margin: 70px 0;
+    }
+    
+    .hero-area {
+        padding-bottom: 50px;
+    }
+ 
+}
+ 
+/* Large Mobile screen :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
